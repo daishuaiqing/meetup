@@ -1,0 +1,111 @@
+<view class="header">
+    <view class="user_info">
+        <view class="user_icon">
+            <image src="../../images/10034837_15216849145144171.jpg"></image>
+        </view>
+        <view class="user_con">
+            <view class="username">花儿与少年</view>
+            <view class="phone">188****0002</view>
+        </view>
+        <view class="go_detail" bindtap="gotoUserInfo">
+            <image src="../../images/goto_w.png"></image>
+        </view>
+    </view>
+    <view class="follow">
+        <view class="follow_con">
+            <view class="f_title">关注</view>
+            <view class="f_number">23</view>
+        </view>
+        <view class="follow_con">
+            <view class="f_title">粉丝</view>
+            <view class="f_number">128</view>
+        </view>
+    </view>
+</view>
+<image class='header-bg' src='../../images/user_info_bac.png'></image>
+<view class="m_title">
+    <view class="t_con">我的活动</view>
+</view>
+<view class="activ">
+    <view class="item" bindtap="gotoOrder">
+        <view class="i_icon">
+            <image src="../../images/wait_pay.png"></image>
+        </view>
+        <view class="i_text">待支付</view>
+    </view>
+    <view class="item">
+        <view class="i_icon">
+            <image src="../../images/wait_join.png"></image>
+        </view>
+        <view class="i_text">待参加</view>
+    </view>
+    <view class="item">
+        <view class="i_icon">
+            <image src="../../images/wait_pj.png"></image>
+        </view>
+        <view class="i_text">待评价</view>
+    </view>
+    <view class="item">
+        <view class="i_icon">
+            <image src="../../images/complate.png"></image>
+        </view>
+        <view class="i_text">已完成</view>
+    </view>
+</view>
+<view class="model">
+    <view class="m_item">
+        <view class="m_left">
+            <view class="i_icon">
+                <image src="../../images/info.png"></image>
+            </view>
+            <view class="i_text m_text">信息认证</view>
+        </view>
+        <view class="m_right">
+            <image src="../../images/goto_b.png"></image>
+        </view>
+    </view>
+    <view class="m_item">
+        <view class="m_left">
+            <view class="i_icon">
+                <image src="../../images/zb.png"></image>
+            </view>
+            <view class="i_text m_text">我是主办</view>
+        </view>
+        <view class="m_right">
+            <image src="../../images/goto_b.png"></image>
+        </view>
+    </view>
+    <view class="m_item">
+        <view class="m_left">
+            <view class="i_icon">
+                <image src="../../images/collect.png"></image>
+            </view>
+            <view class="i_text m_text">我的收藏</view>
+        </view>
+        <view class="m_right">
+            <image src="../../images/goto_b.png"></image>
+        </view>
+    </view>
+    <view class="m_item">
+        <view class="m_left">
+            <view class="i_icon">
+                <image src="../../images/connect.png"></image>
+            </view>
+            <view class="i_text m_text">联系客服</view>
+        </view>
+        <view class="m_right">
+            <image src="../../images/goto_b.png"></image>
+        </view>
+    </view>
+    <view class="m_item">
+        <view class="m_left">
+            <view class="i_icon">
+                <image src="../../images/about.png"></image>
+            </view>
+            <view class="i_text m_text">关于我们</view>
+        </view>
+        <view class="m_right">
+            <image src="../../images/goto_b.png"></image>
+        </view>
+    </view>
+</view>

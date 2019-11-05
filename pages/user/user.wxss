@@ -1,0 +1,122 @@
+page{
+    background: #F4F4F4;
+    width: 100%;
+}
+.header-bg{
+    height: 275rpx;
+    width: 100%;
+}
+.header{
+    position: absolute;
+    height: 275rpx;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+}
+.user_info{
+    display: flex;
+    align-items: center;
+    margin-top: 12rpx;
+}
+.user_icon{
+    height: 114rpx;
+    width: 114rpx;
+    margin-left: 45rpx;
+    margin-top: 18rpx;
+}
+.user_icon image{
+    height: 114rpx;
+    width: 114rpx;
+    border-radius: 114rpx;
+}
+.go_detail image{
+    height: 32rpx;
+    width: 18rpx;
+    margin-left: 32rpx;
+}
+.user_con{
+    margin-left: 40rpx;
+    width: 466rpx;
+}
+.username{
+    font-size: 33rpx;
+}
+.phone{
+    font-size: 25rpx;
+    margin-top: 18rpx;
+}
+.follow{
+    margin-top: 32rpx;
+    display: flex;
+    justify-content: space-around;
+}
+.follow_con{
+    text-align: center;
+}
+.f_title{
+    font-size: 25rpx;
+}
+.f_number{
+    font-size: 33rpx;
+    margin-top: 7rpx;
+}
+.m_title{
+    height: 72rpx;
+    width: 100%;
+    font-size: 29rpx;
+    color: #3D3D3D;
+    background: #fff;
+    margin-top: 15rpx;
+    line-height: 72rpx;
+}
+.t_con{
+    margin-left: 20rpx;
+}
+.activ{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #fff;
+    margin-top: 3rpx;
+    height: 160rpx;
+}
+.item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.i_icon image{
+    height: 70rpx;
+    width: 70rpx;
+}
+.i_text{
+    font-size: 25rpx;
+    color: #3D3D3D;
+}
+.m_right image{
+    width: 18rpx;
+    height: 32rpx;
+}
+.model{
+    margin-top: 20rpx;
+}
+.m_item{
+    display: flex;
+    justify-content: space-between;
+    background: #fff;
+    align-items: center;
+    height: 90rpx;
+    margin-top: 2rpx;
+}
+.m_left{
+    display: flex;
+    align-items: center;
+    margin-left: 49rpx;
+}
+.m_text{
+    margin-left: 25rpx;
+}
+.m_right{
+    margin-right: 49rpx;
+}

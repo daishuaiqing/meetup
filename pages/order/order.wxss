@@ -1,0 +1,76 @@
+page{
+    background: #F4F4F4;
+    width: 100%;
+}
+.order_item{
+  display: flex;
+  flex-direction: column;
+  padding: 0rpx 27rpx;
+  background: #fff; 
+  margin-top: 12rpx;
+}
+.order_header{
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1rpx solid #E7E7E7;
+  padding: 24rpx 0;
+}
+.item{
+    display: flex;
+}
+.activ_icon{
+    width: 208rpx;
+    height: 165rpx;
+    margin: 27rpx;
+}
+.activ_icon image{
+    width: 208rpx;
+    height: 165rpx;
+}
+.activ_con{
+    width: 422rpx;
+}
+.sub_title{
+    color: #3D3D3D;
+    font-size: 27rpx;
+    font-weight:500;
+    margin-top: 27rpx;
+}
+.sub_font{
+    font-size: 22rpx;
+    color: #9D9D9D;
+    margin-top: 13rpx;
+}
+.bt_model{
+  display: flex;
+  font-size: 25rpx;
+  justify-content: flex-end;
+  padding-bottom: 24rpx;
+}
+.next_pay{
+  width: 118rpx;
+  height: 54rpx;
+  background: #D4237A;
+  color: #fff;
+  line-height: 54rpx;
+  text-align: center;
+  border-radius: 9rpx;
+  margin-right: 25rpx;
+}
+.cancel{
+  width: 118rpx;
+  height: 50rpx;
+  border: 2rpx solid #9D9D9D; 
+  color: #9D9D9D;
+  line-height: 54rpx;
+  text-align: center;
+  border-radius: 9rpx;
+}
+.datetime{
+  font-size: 29rpx;
+  color: #2B2B2B;
+}
+.state{
+  font-size: 29rpx;
+  color: #D4237A;
+}

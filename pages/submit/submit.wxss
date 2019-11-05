@@ -1,0 +1,99 @@
+page{
+    background: #F4F4F4;
+    width: 100%;
+}
+.item{
+  background: #fff;
+    display: flex;
+    border: 1rpx solid rgba(239,237,236,1);
+}
+.activ_icon{
+    width: 208rpx;
+    height: 165rpx;
+    margin: 27rpx;
+}
+.activ_icon image{
+    width: 208rpx;
+    height: 165rpx;
+}
+.activ_con{
+    width: 422rpx;
+}
+.sub_title{
+    color: #3D3D3D;
+    font-size: 27rpx;
+    font-weight:500;
+    margin-top: 27rpx;
+}
+.sub_font{
+    font-size: 22rpx;
+    color: #9D9D9D;
+    margin-top: 13rpx;
+}
+.fee_model{
+  margin-top: 14rpx;
+  height: 85rpx;
+  background: #fff;
+  padding: 0rpx 60rpx;
+  display: flex;
+  line-height: 85rpx;
+  justify-content: space-between;
+}
+.fee_name{
+  font-size: 29rpx;
+  color: #2B2B2B;
+}
+.fee{
+  color: #D4237A;
+  font-size: 29rpx; 
+}
+.c_info{
+  margin-top: 14rpx;
+  background: #fff;
+  padding: 25rpx 60rpx;
+  display: flex;
+  flex-direction: column;
+  font-size: 27rpx;
+}
+.c_title{
+  color: #2B2B2B;
+  font-size: 29rpx;
+}
+.c_item{
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1rpx solid #E7E7E7;
+  padding: 28rpx 0;
+}
+.c_name{
+  color: #707070;
+}
+.mark_model{
+  padding: 20rpx 60rpx 50rpx 60rpx;
+  background: #fff;
+  margin-top: 16rpx;
+}
+.mark_name{
+  font-size: 29rpx;
+  color: #2B2B2B;
+}
+.mark_info{
+  margin-top: 25rpx;
+  border-bottom: 1rpx solid #E7E7E7;
+  font-size: 25rpx;
+  color: #9D9D9D;
+  height: 45rpx;
+  line-height: 45rpx;
+}
+.submit{
+  margin-top: 54rpx;
+  margin-left: 109rpx;
+  width: 533rpx;
+  height: 87rpx;
+  background: #D4237A;
+  border-radius: 9rpx;
+  font-size: 33rpx;
+  color: #fff;
+  line-height: 87rpx;
+  text-align: center;
+}

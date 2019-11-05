@@ -1,0 +1,109 @@
+<view class="header">
+    <view class="header_avar">
+        <image mode="aspectFit" src="../../images/logo.png"></image>
+    </view>
+    <view class="desc">告别一个人吃饭、旅行到处走走停停。加入
+TheOne单身派，让你从此不再孤单。</view>
+</view>
+<view class="title">
+    <view class="v_line"></view>
+    <view class="title_con">最新活动</view>
+</view>
+<view class="activ">
+    <view class="item" bindtap="gotoDetail">
+        <view class="activ_icon">
+            <image src="../../images/activi.jpg"></image>
+        </view>
+        <view class="activ_con">
+            <view class="sub_title">90天脱单：算法为你制定12个心仪对象</view>
+            <view class="sub_font">活动地点：建国中路147号雨茶1819</view>
+            <view class="sub_font">
+                活动时间：2019-06-15 18:30:00
+            </view>
+        </view>
+    </view>
+    <view class="item">
+        <view class="activ_icon">
+            <image src="../../images/activi.jpg"></image>
+        </view>
+        <view class="activ_con">
+            <view class="sub_title">90天脱单：算法为你制定12个心仪对象</view>
+            <view class="sub_font">活动地点：建国中路147号雨茶1819</view>
+            <view class="sub_font">
+                活动时间：2019-06-15 18:30:00
+            </view>
+        </view>
+    </view>
+    <view class="item">
+        <view class="activ_icon">
+            <image src="../../images/activi.jpg"></image>
+        </view>
+        <view class="activ_con">
+            <view class="sub_title">90天脱单：算法为你制定12个心仪对象</view>
+            <view class="sub_font">活动地点：建国中路147号雨茶1819</view>
+            <view class="sub_font">
+                活动时间：2019-06-15 18:30:00
+            </view>
+        </view>
+    </view>
+    <view class="item">
+        <view class="activ_icon">
+            <image src="../../images/activi.jpg"></image>
+        </view>
+        <view class="activ_con">
+            <view class="sub_title">90天脱单：算法为你制定12个心仪对象</view>
+            <view class="sub_font">活动地点：建国中路147号雨茶1819</view>
+            <view class="sub_font">
+                活动时间：2019-06-15 18:30:00
+            </view>
+        </view>
+    </view>
+    <view class="item">
+        <view class="activ_icon">
+            <image src="../../images/activi.jpg"></image>
+        </view>
+        <view class="activ_con">
+            <view class="sub_title">90天脱单：算法为你制定12个心仪对象</view>
+            <view class="sub_font">活动地点：建国中路147号雨茶1819</view>
+            <view class="sub_font">
+                活动时间：2019-06-15 18:30:00
+            </view>
+        </view>
+    </view>
+    <view class="item">
+        <view class="activ_icon">
+            <image src="../../images/activi.jpg"></image>
+        </view>
+        <view class="activ_con">
+            <view class="sub_title">90天脱单：算法为你制定12个心仪对象</view>
+            <view class="sub_font">活动地点：建国中路147号雨茶1819</view>
+            <view class="sub_font">
+                活动时间：2019-06-15 18:30:00
+            </view>
+        </view>
+    </view>
+    <view class="item">
+        <view class="activ_icon">
+            <image src="../../images/activi.jpg"></image>
+        </view>
+        <view class="activ_con">
+            <view class="sub_title">90天脱单：算法为你制定12个心仪对象</view>
+            <view class="sub_font">活动地点：建国中路147号雨茶1819</view>
+            <view class="sub_font">
+                活动时间：2019-06-15 18:30:00
+            </view>
+        </view>
+    </view>
+    <view class="item">
+        <view class="activ_icon">
+            <image src="../../images/activi.jpg"></image>
+        </view>
+        <view class="activ_con">
+            <view class="sub_title">90天脱单：算法为你制定12个心仪对象</view>
+            <view class="sub_font">活动地点：建国中路147号雨茶1819</view>
+            <view class="sub_font">
+                活动时间：2019-06-15 18:30:00
+            </view>
+        </view>
+    </view>
+</view>

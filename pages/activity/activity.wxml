@@ -1,0 +1,49 @@
+<view class="show_img">
+    <image mode="aspectFit" src="../../images/show_img.png" />
+</view>
+<view class="act_model">
+    <view class="act_title">精英交友派对@田子坊：年收入50万男生、气质
+女生</view>
+    <view class="address">活动地点：建国中路147号雨茶1819</view>
+    <view class="datetime">活动时间：2019-06-15 18:30:00</view>
+    <view class="price">￥200 起</view>
+</view>
+<view class="zb_model">
+    <view class="zb_icon">
+        <image mode="aspectFull" src="../../images/show_img.png" />
+    </view>
+    <view class="ab_info_model">
+        <view class="zb_info">
+            <view>TheOne单身派</view>
+            <view class="follow">关注</view>
+        </view>
+        <view class="zb_desc">TheOne单身派是本平台官方主办方，面向全部的平台
+会员，官方唯一认证。</view>
+    </view>
+</view>
+<view class="detail_model">
+  <view class="title">活动信息</view>
+  <view class="t_content">
+    <text>活动人数：60-200人
+    报名截止时间：2019年10月4日20:00</text>
+  </view>
+  <view class="title">报名条件（至少满足1条）</view>
+  <view class="t_content">
+    <text>1. 籍贯为上海，即身份证310开头
+      2. 硕士及以上学历
+      3. 海外留学或工作经历
+      4. 女生90后、或身高163cm以上</text>
+  </view>
+  <view class="title">活动内容</view>
+  <view class="t_content">
+    <text>1. 10月5日12:00，相互关注数据清空
+      2. 选择心仪异性异性，点击“关注”
+      3. 相互关注的2人，将从资料列表中消失，表示配对成功
+      4. 随着配对人数增加，资料中所剩异性数量逐渐减少
+      5. 必须选择1位相互关注。若男女1:1，所有人将配对成功
+      6. 配对成功，2人自由约会，提交合影照，获报名费退还</text>
+  </view>
+</view>
+<view class="bm_bt" bindtap="gotoEnroll">
+  立即报名
+</view>
