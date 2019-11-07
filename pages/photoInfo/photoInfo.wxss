@@ -1,0 +1,11 @@
+page{
+    background: #F4F4F4;
+    width: 100%;
+}
+.title{
+  font-size: 33rpx;
+  color: #707070;
+  margin-left: 16rpx;
+  margin-top: 20rpx;
+  margin-bottom: 14rpx;
+}

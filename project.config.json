@@ -14,7 +14,7 @@
 	},
 	"compileType": "miniprogram",
 	"libVersion": "2.8.3",
-	"appid": "wx5b134dae1ed3b119",
+	"appid": "wxcca8ee64dd17c332",
 	"projectname": "meetup",
 	"debugOptions": {
 		"hidedInDevtools": []
@@ -37,6 +37,10 @@
 		},
 		"game": {
 			"currentL": -1,
+			"list": []
+		},
+		"gamePlugin": {
+			"current": -1,
 			"list": []
 		},
 		"miniprogram": {
@@ -74,6 +78,20 @@
 					"id": -1,
 					"name": "pages/baseInfo/baseInfo",
 					"pathName": "pages/baseInfo/baseInfo",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/detailInfo/detailInfo",
+					"pathName": "pages/detailInfo/detailInfo",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/photoInfo/photoInfo",
+					"pathName": "pages/photoInfo/photoInfo",
 					"scene": null
 				}
 			]

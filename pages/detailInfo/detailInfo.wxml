@@ -1,0 +1,55 @@
+<view class="title">详细介绍</view>
+<view class="input_area">
+  <textarea bindblur="bindTextAreaBlur" auto-height placeholder="" />
+</view>
+<view class="title">以下至少填写三项</view>
+<view class="base_info">
+  <view class="info_item">
+    <view class="info_name">计划几年结婚</view>
+    <input class="info_input" auto-focus placeholder="2年内" />
+  </view>
+  <view class="info_item">
+    <view class="info_name">是否有房</view>
+    <input class="info_input" auto-focus placeholder="保密" />
+  </view>
+  <view class="info_item">
+    <view class="info_name">是否有车</view>
+    <input class="info_input" auto-focus placeholder="保密" />
+  </view>
+</view>
+<view class="title">家庭背景</view>
+<view class="input_area">
+  <textarea bindblur="bindTextAreaBlur" auto-height placeholder="" />
+</view>
+<view class="title">职业规划</view>
+<view class="input_area">
+  <textarea bindblur="bindTextAreaBlur" auto-height placeholder="" />
+</view>
+<view class="title">感情经历</view>
+<view class="input_area">
+  <textarea bindblur="bindTextAreaBlur" auto-height placeholder="" />
+</view>
+<view class="title">去过的国家</view>
+<view class="input_area">
+  <textarea bindblur="bindTextAreaBlur" auto-height placeholder="" />
+</view>
+<view class="title">读过的书</view>
+<view class="input_area">
+  <textarea bindblur="bindTextAreaBlur" auto-height placeholder="" />
+</view>
+<view class="title">会做的菜</view>
+<view class="input_area">
+  <textarea bindblur="bindTextAreaBlur" auto-height placeholder="" />
+</view>
+<view class="title">兴趣爱好</view>
+<view class="input_area">
+  <textarea bindblur="bindTextAreaBlur" auto-height placeholder="" />
+</view>
+<view class="title">周末做什么</view>
+<view class="input_area">
+  <textarea bindblur="bindTextAreaBlur" auto-height placeholder="" />
+</view>
+<view class="info_bm">
+  <view class="su_bt" bindtap="gotoPhotoInfo">保存并下一步</view>
+</view>
+

@@ -46,5 +46,5 @@
   </view>
 </view>
 <view class="info_bm">
-  <view class="su_bt">保存</view>
+  <view class="su_bt" bindtap="gotoDetailInfo">保存并下一步</view>
 </view>

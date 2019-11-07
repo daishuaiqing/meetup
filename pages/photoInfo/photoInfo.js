@@ -1,4 +1,4 @@
-// pages/baseInfo/baseInfo.js
+// pages/photoInfo/photoInfo.js
 Page({
 
   /**
@@ -6,19 +6,6 @@ Page({
    */
   data: {
 
-  },
-
-  bindDateChange: function (e) {
-    console.log('picker发送选择改变，携带值为', e.detail.value)
-    this.setData({
-      date: e.detail.value
-    })
-  },
-
-  gotoDetailInfo: function(){
-    wx.navigateTo({
-      url: '/pages/detailInfo/detailInfo'
-    })
   },
 
   /**

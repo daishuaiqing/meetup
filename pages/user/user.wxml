@@ -53,7 +53,7 @@
     </view>
 </view>
 <view class="model">
-    <view class="m_item">
+    <view class="m_item" bindtap="gotoUserInfo">
         <view class="m_left">
             <view class="i_icon">
                 <image src="../../images/info.png"></image>

@@ -5,7 +5,9 @@
     "pages/activity/activity",
     "pages/submit/submit",
     "pages/order/order",
-    "pages/baseInfo/baseInfo"
+    "pages/baseInfo/baseInfo",
+    "pages/detailInfo/detailInfo",
+    "pages/photoInfo/photoInfo"
   ],
   "window": {
     "backgroundTextStyle": "light",
