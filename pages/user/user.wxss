@@ -5,6 +5,7 @@ page{
 .header-bg{
     height: 275rpx;
     width: 100%;
+    z-index: -2;
 }
 .header{
     position: absolute;
