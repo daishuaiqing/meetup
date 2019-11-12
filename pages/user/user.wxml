@@ -12,11 +12,11 @@
         </view>
     </view>
     <view class="follow">
-        <view class="follow_con">
+        <view class="follow_con" bindtap="gotoFollow">
             <view class="f_title">关注</view>
             <view class="f_number">23</view>
         </view>
-        <view class="follow_con">
+        <view class="follow_con" bindtap="gotoFollow">
             <view class="f_title">粉丝</view>
             <view class="f_number">128</view>
         </view>
@@ -33,19 +33,19 @@
         </view>
         <view class="i_text">待支付</view>
     </view>
-    <view class="item">
+    <view class="item" bindtap="gotoOrder">
         <view class="i_icon">
             <image src="../../images/wait_join.png"></image>
         </view>
         <view class="i_text">待参加</view>
     </view>
-    <view class="item">
+    <view class="item" bindtap="gotoOrder">
         <view class="i_icon">
             <image src="../../images/wait_pj.png"></image>
         </view>
         <view class="i_text">待评价</view>
     </view>
-    <view class="item">
+    <view class="item" bindtap="gotoOrder">
         <view class="i_icon">
             <image src="../../images/complate.png"></image>
         </view>
@@ -75,7 +75,7 @@
             <image src="../../images/goto_b.png"></image>
         </view>
     </view>
-    <view class="m_item">
+    <view class="m_item" bindtap="gotoCollection">
         <view class="m_left">
             <view class="i_icon">
                 <image src="../../images/collect.png"></image>
@@ -86,7 +86,7 @@
             <image src="../../images/goto_b.png"></image>
         </view>
     </view>
-    <view class="m_item">
+    <view class="m_item" bindtap="call">
         <view class="m_left">
             <view class="i_icon">
                 <image src="../../images/connect.png"></image>
@@ -97,7 +97,7 @@
             <image src="../../images/goto_b.png"></image>
         </view>
     </view>
-    <view class="m_item">
+    <view class="m_item" bindtap="gotoAbout">
         <view class="m_left">
             <view class="i_icon">
                 <image src="../../images/about.png"></image>

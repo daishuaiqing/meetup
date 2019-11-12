@@ -1,0 +1,48 @@
+page{
+    background: #F4F4F4;
+    width: 100%;
+}
+.bd{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.item{
+  width: 716rpx;
+  height: 205rpx;
+  background: #fff;
+  padding: 29rpx 34rpx;
+  display: flex;
+  margin-top: 16rpx;
+  border-radius: 18rpx;
+  align-items: center;
+}
+.icon image{
+  width: 127rpx;
+  height: 127rpx;
+}
+
+.info_top{
+  display: flex;
+  margin-left: 40rpx;
+  margin-bottom: 33rpx;
+}
+.info_name{
+  color: #2B2B2B;
+  font-size: 36rpx;
+}
+.info_age{
+  background: #D4237A;
+  color: #fff;
+  font-size: 25rpx;
+  border-radius: 27rpx;
+  line-height: 51rpx;
+  width: 163rpx;
+  text-align: center;
+  margin-left: 42rpx;
+}
+.info_dz{
+  margin-left: 40rpx;
+  font-size: 29rpx;
+  color: #707070;
+}

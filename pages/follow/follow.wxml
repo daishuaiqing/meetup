@@ -1,0 +1,67 @@
+<view class="bd">
+  <view class="item">
+    <view class="icon">
+      <image src="../../images/i_1.png"></image>
+    </view>
+    <view>
+      <view class="info_top">
+        <view class="info_name">秦仙儿</view>
+        <view class="info_age">女 1994年</view>
+      </view>
+      <view class="info_dz">会计  |  河南-洛阳</view>
+      <view></view>
+    </view>
+  </view>
+  <view class="item">
+    <view class="icon">
+      <image src="../../images/i_2.png"></image>
+    </view>
+    <view>
+      <view class="info_top">
+        <view class="info_name">秦仙儿</view>
+        <view class="info_age">女 1994年</view>
+      </view>
+      <view class="info_dz">会计  |  河南-洛阳</view>
+      <view></view>
+    </view>
+  </view>
+  <view class="item">
+    <view class="icon">
+      <image src="../../images/i_3.png"></image>
+    </view>
+    <view>
+      <view class="info_top">
+        <view class="info_name">秦仙儿</view>
+        <view class="info_age">女 1994年</view>
+      </view>
+      <view class="info_dz">会计  |  河南-洛阳</view>
+      <view></view>
+    </view>
+  </view>
+  <view class="item">
+    <view class="icon">
+      <image src="../../images/i_4.png"></image>
+    </view>
+    <view>
+      <view class="info_top">
+        <view class="info_name">秦仙儿</view>
+        <view class="info_age">女 1994年</view>
+      </view>
+      <view class="info_dz">会计  |  河南-洛阳</view>
+      <view></view>
+    </view>
+  </view>
+  <view class="item">
+    <view class="icon">
+      <image src="../../images/i_5.png"></image>
+    </view>
+    <view>
+      <view class="info_top">
+        <view class="info_name">秦仙儿</view>
+        <view class="info_age">女 1994年</view>
+      </view>
+      <view class="info_dz">会计  |  河南-洛阳</view>
+      <view></view>
+    </view>
+  </view>
+</view>

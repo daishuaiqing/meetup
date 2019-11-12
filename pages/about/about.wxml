@@ -1,0 +1,32 @@
+<view class="ab_top">
+  <view class="ab_icon">
+    <image src="../../images/10034837_15216849145144171.jpg"></image>
+  </view>
+  <view class="ab_version">1.0.1v 版本</view>
+</view>
+<view class="model">
+  <view class="item">
+    <view class="i_name">官方微信</view>
+    <view class="i_value">theone</view>
+  </view>
+  <view class="item">
+    <view class="i_name">官方微博</view>
+    <view class="i_value">TheOne单身派</view>
+  </view>
+  <view class="item">
+    <view class="i_name">官方网站</view>
+    <view class="i_value">www.theone.com</view>
+  </view>
+  <view class="item">
+    <view class="i_name">客服电话</view>
+    <view class="i_value">012-3366182992</view>
+  </view>
+  <view class="item">
+    <view class="i_name">公司邮箱</view>
+    <view class="i_value">hezuo@theone.com</view>
+  </view>
+</view>
+<view class="ab_bm">
+  <view>TheOne单身派信息科技有限公司</view>
+  <view>Copyright © 2004 - 2019 京东JD.com 版权所有</view>
+</view>

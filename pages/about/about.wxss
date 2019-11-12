@@ -1,0 +1,43 @@
+page{
+    background: #fff;
+    width: 100%;
+}
+.ab_top{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.ab_icon image{
+  width: 200rpx;
+  height: 200rpx;
+  margin-top: 38rpx;
+  margin-bottom: 42rpx;
+}
+.ab_version{
+  color: #9D9D9D;
+  font-size: 33rpx;
+}
+.model{
+  padding: 80rpx 26rpx;
+}
+.item{
+  display: flex;
+  justify-content: space-between;
+  padding: 35rpx 36rpx;
+  border-bottom: 2rpx solid #E7E7E7;
+}
+.i_name{
+  font-size: 33rpx;
+  color: #2B2B2B;
+}
+.i_value{
+  font-size: 33rpx;
+  color: #9D9D9D;
+}
+.ab_bm{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #9D9D9D;
+  font-size: 25rpx;
+}

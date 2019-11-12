@@ -1,4 +1,4 @@
-// pages/user/user.js
+// pages/follow/follow.js
 Page({
 
   /**
@@ -6,42 +6,6 @@ Page({
    */
   data: {
 
-  },
-
-  gotoOrder: function(){
-    wx.navigateTo({
-      url: '/pages/order/order'
-    })
-  },
-
-  gotoUserInfo: function(){
-    wx.navigateTo({
-      url: '/pages/baseInfo/baseInfo'
-    })
-  },
-
-  gotoFollow: function(){
-    wx.navigateTo({
-      url: '/pages/follow/follow'
-    })
-  },
-
-  gotoCollection: function(){
-    wx.navigateTo({
-      url: '/pages/collection/collection'
-    })
-  },
-
-  call: function(){
-    wx.makePhoneCall({
-      phoneNumber: '18516683224'
-    })
-  },
-
-  gotoAbout: function(){
-    wx.navigateTo({
-      url: '/pages/about/about'
-    })
   },
 
   /**

@@ -1,0 +1,38 @@
+page{
+    background: #F4F4F4;
+    width: 100%;
+}
+.activ{
+    width: 100%;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rpx;
+}
+.item{
+    display: flex;
+    border: 1rpx solid rgba(239,237,236,1);
+}
+.activ_icon{
+    width: 208rpx;
+    height: 165rpx;
+    margin: 27rpx;
+}
+.activ_icon image{
+    width: 208rpx;
+    height: 165rpx;
+}
+.activ_con{
+    width: 422rpx;
+}
+.sub_title{
+    color: #3D3D3D;
+    font-size: 27rpx;
+    font-weight:500;
+    margin-top: 27rpx;
+}
+.sub_font{
+    font-size: 22rpx;
+    color: #9D9D9D;
+    margin-top: 13rpx;
+}
