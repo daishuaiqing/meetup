@@ -1,2 +1,41 @@
-<!--pages/zb/zb.wxml-->
-<text>pages/zb/zb.wxml</text>
+<view class="user">
+  <view class="user_icon"></view>
+  <view class="user_info">
+    <view class="user_t">
+      <text class="user_name">心康轰趴馆</text>
+      <text class="edit">编辑</text>
+    </view>
+    <view class="desc">TheOne单身派是本平台官方主办方，面向全部的平台会员，官方唯一认证。</view>
+  </view>
+</view>
+<view class="title">经营数据</view>
+<view class="tj">
+  <view class="ds">
+    <text class="numb">112,500</text>
+    <text class="title_n">总收入</text>
+  </view>
+  <view class="ds">
+    <text class="numb">112,500</text>
+    <text class="title_n">总收入</text>
+  </view>
+  <view class="ds">
+    <text class="numb">112,500</text>
+    <text class="title_n">总收入</text>
+  </view>
+</view>
+<view class="title">组织活动</view>
+<view class="tj">
+  <view class="ds">
+    <text class="numb">1</text>
+    <text class="title_n">审核中</text>
+  </view>
+  <view class="ds">
+    <text class="numb">5</text>
+    <text class="title_n">待举办</text>
+  </view>
+  <view class="ds">
+    <text class="numb">23</text>
+    <text class="title_n">已完成</text>
+  </view>
+</view>
+<view class="bt" bindtap="gotoPublish">发布活动</view>

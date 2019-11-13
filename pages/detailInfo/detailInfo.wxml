@@ -6,15 +6,15 @@
 <view class="base_info">
   <view class="info_item">
     <view class="info_name">计划几年结婚</view>
-    <input class="info_input" auto-focus placeholder="2年内" />
+    <input class="info_input" placeholder="2年内" />
   </view>
   <view class="info_item">
     <view class="info_name">是否有房</view>
-    <input class="info_input" auto-focus placeholder="保密" />
+    <input class="info_input" placeholder="保密" />
   </view>
   <view class="info_item">
     <view class="info_name">是否有车</view>
-    <input class="info_input" auto-focus placeholder="保密" />
+    <input class="info_input" placeholder="保密" />
   </view>
 </view>
 <view class="title">家庭背景</view>

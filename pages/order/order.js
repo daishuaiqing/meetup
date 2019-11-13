@@ -8,6 +8,12 @@ Page({
 
   },
 
+  gotoDetail: function(){
+    wx.navigateTo({
+      url: '/pages/visited/visited',
+    })
+  },
+
   /**
    * 生命周期函数--监听页面加载
    */

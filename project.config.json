@@ -115,6 +115,26 @@
 					"pathName": "pages/about/about",
 					"query": "",
 					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/zb/zb",
+					"pathName": "pages/zb/zb",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/publish/publish",
+					"pathName": "pages/publish/publish",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/visited/visited",
+					"pathName": "pages/visited/visited",
+					"scene": null
 				}
 			]
 		}

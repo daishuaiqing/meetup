@@ -2,7 +2,7 @@
 <view class="base_info">
   <view class="info_item">
     <view class="info_name">昵称</view>
-    <input class="info_input" auto-focus placeholder="花儿与少年" />
+    <input class="info_input" placeholder="花儿与少年" />
   </view>
   <view class="info_item">
     <view class="info_name">生日</view>
@@ -14,35 +14,35 @@
   </view>
   <view class="info_item">
     <view class="info_name">身高</view>
-    <input class="info_input" auto-focus placeholder="180cm" />
+    <input class="info_input" placeholder="180cm" />
   </view>
   <view class="info_item">
     <view class="info_name">家乡</view>
-    <input class="info_input" auto-focus placeholder="槟城" />
+    <input class="info_input" placeholder="槟城" />
   </view>
   <view class="info_item">
     <view class="info_name">城市</view>
-    <input class="info_input" auto-focus placeholder="上海" />
+    <input class="info_input" placeholder="上海" />
   </view>
   <view class="info_item">
     <view class="info_name">公司</view>
-    <input class="info_input" auto-focus placeholder="百度科技" />
+    <input class="info_input" placeholder="百度科技" />
   </view>
   <view class="info_item">
     <view class="info_name">年薪</view>
-    <input class="info_input" auto-focus placeholder="50万" />
+    <input class="info_input" placeholder="50万" />
   </view>
   <view class="info_item">
     <view class="info_name">学校</view>
-    <input class="info_input" auto-focus placeholder="复旦大学" />
+    <input class="info_input" placeholder="复旦大学" />
   </view>
   <view class="info_item">
     <view class="info_name">学历</view>
-    <input class="info_input" auto-focus placeholder="硕士" />
+    <input class="info_input" placeholder="硕士" />
   </view>
   <view class="info_item">
     <view class="info_name">微信</view>
-    <input class="info_input" auto-focus placeholder="flowor" />
+    <input class="info_input" placeholder="flowor" />
   </view>
 </view>
 <view class="info_bm">

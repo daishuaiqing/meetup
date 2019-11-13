@@ -11,7 +11,9 @@
     "pages/collection/collection",
     "pages/zb/zb",
     "pages/follow/follow",
-    "pages/about/about"
+    "pages/about/about",
+    "pages/publish/publish",
+    "pages/visited/visited"
   ],
   "window": {
     "backgroundTextStyle": "light",

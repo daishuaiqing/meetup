@@ -1,1 +1,74 @@
-/* pages/zb/zb.wxss */
+.user{
+  display: flex;
+  padding: 42rpx 34rpx;
+  background: #fff;
+}
+.user_icon{
+  width: 136rpx;
+  height: 136rpx;
+  background: rgb(21, 172, 172);
+  margin-right: 27rpx;
+}
+.user_info{
+  display: flex;
+  flex-direction: column;
+  width: 522rpx;
+}
+.user_name{
+  color: #2B2B2B;
+  font-size: 33rpx;
+}
+.desc{
+  color: #707070;
+  font-size: 22rpx;
+  margin-top: 27rpx;
+}
+.user_t{
+  display: flex;
+  justify-content: space-between;
+}
+.edit{
+  color: #707070;
+  font-size: 29rpx;
+}
+.tj{
+  display: flex;
+  justify-content: space-around;
+  padding: 47rpx 0;
+  background: #fff;
+  margin-top: 2rpx;
+}
+.ds{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.title_n{
+  color: #707070;
+  font-size: 29rpx;
+  margin-top: 12rpx;
+}
+.numb{
+  font-size: 36rpx;
+  color: #2B2B2B;
+  font-weight: bold;
+}
+.title{
+  color: #2B2B2B;
+  font-size: 33rpx;
+  background: #fff;
+  line-height: 89rpx;
+  padding-left: 34rpx;
+  margin-top: 11rpx;
+}
+.bt{
+  height: 87rpx;
+  width: 100%;
+  background: #D4237A;
+  font-size: 33rpx;
+  color: #fff;
+  line-height: 87rpx;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+}

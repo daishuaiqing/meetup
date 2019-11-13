@@ -1,25 +1,25 @@
 <view class="show_img">
-    <image mode="aspectFit" src="../../images/show_img.png" />
+  <image mode="aspectFit" src="../../images/show_img.png" />
 </view>
 <view class="act_model">
-    <view class="act_title">精英交友派对@田子坊：年收入50万男生、气质
-女生</view>
-    <view class="address">活动地点：建国中路147号雨茶1819</view>
-    <view class="datetime">活动时间：2019-06-15 18:30:00</view>
-    <view class="price">￥200 起</view>
+  <view class="act_title">精英交友派对@田子坊：年收入50万男生、气质 女生
+  </view>
+  <view class="address">活动地点：建国中路147号雨茶1819</view>
+  <view class="datetime">活动时间：2019-06-15 18:30:00</view>
+  <view class="price">￥200 起</view>
 </view>
 <view class="zb_model">
-    <view class="zb_icon">
-        <image mode="aspectFull" src="../../images/show_img.png" />
+  <view class="zb_icon">
+    <image mode="aspectFull" src="../../images/show_img.png" />
+  </view>
+  <view class="ab_info_model">
+    <view class="zb_info">
+      <view>TheOne单身派</view>
+      <view class="follow">关注</view>
     </view>
-    <view class="ab_info_model">
-        <view class="zb_info">
-            <view>TheOne单身派</view>
-            <view class="follow">关注</view>
-        </view>
-        <view class="zb_desc">TheOne单身派是本平台官方主办方，面向全部的平台
-会员，官方唯一认证。</view>
+    <view class="zb_desc">TheOne单身派是本平台官方主办方，面向全部的平台 会员，官方唯一认证。
     </view>
+  </view>
 </view>
 <view class="detail_model">
   <view class="title">活动信息</view>
@@ -43,6 +43,20 @@
       5. 必须选择1位相互关注。若男女1:1，所有人将配对成功
       6. 配对成功，2人自由约会，提交合影照，获报名费退还</text>
   </view>
+</view>
+<view class="title">基本信息</view>
+<view class="visit_user">
+  <scroll-view scroll-x class="scroll_w">
+    <view class="user_icon"></view>
+    <view class="user_icon"></view>
+    <view class="user_icon"></view>
+    <view class="user_icon"></view>
+    <view class="user_icon"></view>
+    <view class="user_icon"></view>
+    <view class="user_icon"></view>
+    <view class="user_icon"></view>
+    <view class="user_icon"></view>
+  </scroll-view>
 </view>
 <view class="bm_line"></view>
 <view class="bm_bt" bindtap="gotoEnroll">

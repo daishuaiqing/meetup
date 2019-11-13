@@ -64,7 +64,7 @@
             <image src="../../images/goto_b.png"></image>
         </view>
     </view>
-    <view class="m_item">
+    <view class="m_item" bindtap="gotoZb">
         <view class="m_left">
             <view class="i_icon">
                 <image src="../../images/zb.png"></image>

@@ -78,7 +78,6 @@ page{
 .detail_model{
   padding: 16rpx 42rpx;
   background: #fff;
-  margin-bottom: 91rpx;
 }
 .title{
   color: #2B2B2B;
@@ -91,6 +90,10 @@ page{
   margin-top: 20rpx;
   margin-bottom: 20rpx;
 }
+.bm_line{
+  height: 100rpx;
+  width: 100%;
+}
 .bm_bt{
   height: 91rpx;
   width: 100%;
@@ -102,9 +105,29 @@ page{
   bottom: 0;
   text-align: center;
 }
-.bm_line{
-  height: 100rpx;
+.title{
+  font-size: 33rpx;
+  color: #707070;
+  margin-left: 16rpx;
+  margin-top: 20rpx;
+  margin-bottom: 14rpx;
+}
+.visit_user{
+  padding: 33rpx 0;
+  background: #fff;
   width: 100%;
+}
+.user_icon{
+  display: inline-block;
+  width: 129rpx;
+  height: 129rpx;
+  background: #D4237A;
+  border-radius: 129rpx;
+  margin-left: 32rpx;
+}
+.scroll_w{
+  width: 100%; 
+  white-space: nowrap;
 }
 
 

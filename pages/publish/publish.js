@@ -1,4 +1,4 @@
-// pages/zb/zb.js
+// pages/publish/publish.js
 Page({
 
   /**
@@ -6,12 +6,6 @@ Page({
    */
   data: {
 
-  },
-
-  gotoPublish: function(){
-    wx.navigateTo({
-      url: '/pages/publish/publish',
-    })
   },
 
   /**
