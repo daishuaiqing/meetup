@@ -1,11 +1,13 @@
 // pages/user/user.js
+const app = getApp();
+const { login } = require('../../api/login.js');
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-
+    
   },
 
   gotoOrder: function(){
@@ -48,6 +50,39 @@ Page({
     wx.navigateTo({
       url: '/pages/zb/zb'
     })
+  },
+
+  getUserInfo(){
+    if(app.globalData.hasLogin){
+      this.setData({
+        userInfo: app.globalData.userInfo,
+        hasLogin: true
+      })
+    }else{
+      this.setData({
+        hasLogin: false
+      })
+    }
+  },
+
+  bindGetUserInfo: function(e){
+    console.log(e.detail.userInfo)
+    let userInfo = e.detail.userInfo
+    wx.login({
+      success (res) {
+        if (res.code) {
+          //发起网络请求
+          login({
+            code: res.code
+          }).then(res=>{
+            console.log(res)
+          })
+        } else {
+          console.log('登录失败！' + res.errMsg)
+        }
+      }
+    })
+    
   },
 
   /**

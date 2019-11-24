@@ -20,11 +20,32 @@ page{
     align-items: center;
     margin-top: 12rpx;
 }
+.lgbt{
+    display: inline-block;
+    width: 120rpx;
+    height: 60rpx;
+    background: #9b9191;
+    outline:none;
+    border:none;
+    list-style: none;
+    margin-top: 18rpx;
+    color: #fff;
+    font-size: 24rpx;
+    padding: 0;
+}
 .user_icon{
     height: 114rpx;
     width: 114rpx;
     margin-left: 45rpx;
     margin-top: 18rpx;
+}
+.user_icon_default{
+    height: 114rpx;
+    width: 114rpx;
+    margin-left: 45rpx;
+    margin-top: 18rpx;
+    border-radius: 114rpx;
+    background: #fff;
 }
 .user_icon image{
     height: 114rpx;

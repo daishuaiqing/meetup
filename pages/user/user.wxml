@@ -1,5 +1,5 @@
 <view class="header">
-    <view class="user_info">
+    <view class="user_info" wx:if="{{hasLogin}}">
         <view class="user_icon">
             <image src="../../images/10034837_15216849145144171.jpg"></image>
         </view>
@@ -10,6 +10,17 @@
         <view class="go_detail" bindtap="gotoUserInfo">
             <image src="../../images/goto_w.png"></image>
         </view>
+    </view>
+    <view class="user_info" wx:if="{{!hasLogin}}">
+        <view class="user_icon_default"></view>
+        <view class="user_con">
+            <view class="username">未登录</view>
+            <!-- <view class="phone">暂无信息</view> -->
+            <button class="lgbt" open-type="getUserInfo" bindgetuserinfo="bindGetUserInfo">授权登录</button>
+        </view>
+        <!-- <view class="go_detail" bindtap="gotoUserInfo">
+            <image src="../../images/goto_w.png"></image>
+        </view> -->
     </view>
     <view class="follow">
         <view class="follow_con" bindtap="gotoFollow">

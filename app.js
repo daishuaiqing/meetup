@@ -32,8 +32,14 @@ App({
         }
       }
     })
+    var userInfo = wx.getStorageSync("userInfo");
+    if(userInfo){
+      this.globalData.userInfo=userInfo
+      this.globalData.hasLogin=true
+    }
   },
   globalData: {
-    userInfo: null
+    userInfo: null,
+    hasLogin: false
   }
 })

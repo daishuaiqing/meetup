@@ -1,4 +1,5 @@
 // pages/home/home.js
+const { getActivityList } = require('../../api/activity');
 Page({
 
   /**
@@ -14,11 +15,20 @@ Page({
     })
   },
 
+  getActivityList: function(){
+    getActivityList().then(res=>{
+      console.log(res)
+      this.setData({
+        activityArr: res.rows
+      })
+    })
+  },
+
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-
+    this.getActivityList()
   },
 
   /**
